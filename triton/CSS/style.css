@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.top
+{
+background: #00238c;
+color: #fff;
+line-height:30px;
+padding: 20px 30px;
+word-spacing: 15px;
+text-align: center;
+}
+
+nav
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav image
+{
+    width:150px;
+}
+   .nav-links{
+    flex: 1;
+    text-align: right;
+   }
+.nav-links ul li {
+    list-style: none;
+    display:inline-block;
+    padding 8px 12px;
+    position: relative;
+}
+.nav-links ul li {
+    color: #00238c;
+    font-size: 20px;
+}
+.nav-links ul li:hover::after
+    {
+width: 0%;
+height: 2px;
+display: block;
+transition: 0.5s;
+    }
+.nav-links ul li:hover::after{
+    width: 100%
+}
+.fa-graduation-cap {
+    color: #5FBC08;
+    font-size: 40px;
+    float: left;
+    margin: 10px;
+    margin-left: 80px;
+}
+.form
+{
+font-size: 30px;
+position: relative;
+padding: 20px 0 30px;
+background-color: #ededed;
+text-align: center;
+}
+.course
+{
+    text-align: center;
+    font-size: 30px;
+}
+.course-img{
+    display: flex;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+
